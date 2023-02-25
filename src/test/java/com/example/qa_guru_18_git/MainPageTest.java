@@ -17,7 +17,7 @@ public class MainPageTest {
 
     @BeforeAll
     public static void setUpAll() {
-        Configuration.browserSize = "1280x802";
+        Configuration.browserSize = "1280x804";
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
 
