@@ -38,6 +38,7 @@ public class MainPageTest {
 
     @Test
     public void toolsMenu() {
+
         mainPage.toolsMenu.click();
 
         $("div[data-test='main-submenu']").shouldBe(visible);
